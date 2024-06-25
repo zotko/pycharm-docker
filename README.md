@@ -1,1 +1,1 @@
-# pycharm-docker
+# pycharm-jupyter-docker
