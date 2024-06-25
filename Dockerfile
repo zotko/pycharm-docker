@@ -1,4 +1,4 @@
-FROM continuumio/miniconda3:latest
+FROM continuumio/anaconda3
 
 # Copy the environment.yml file from the config directory into the container
 COPY environment.yml .
