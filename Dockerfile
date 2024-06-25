@@ -15,3 +15,5 @@ WORKDIR /opt/notebooks
 
 # Expose the port for Jupyter
 EXPOSE 8888
+
+# CMD ["jupyter", "notebook", "--notebook-dir=/opt/notebooks/", "--port=8888", "--ip=0.0.0.0", "--no-browser", "--allow-root", "--NotebookApp.token=''"]
