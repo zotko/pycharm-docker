@@ -1,7 +1,7 @@
 FROM continuumio/miniconda3:latest
 
 # Copy the environment.yml file from the config directory into the container
-COPY config/environment.yml .
+COPY environment.yml .
 
 # Update Conda and install Jupyter
 RUN conda install jupyter -y --quiet && \
